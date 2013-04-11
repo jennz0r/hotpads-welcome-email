@@ -27,7 +27,7 @@
 			table td {border-collapse: collapse;}
 			table { border-collapse:collapse; mso-table-lspace:0pt; mso-table-rspace:0pt; }
 
-			a {color: green;}
+			a {color: blue;}
 
 			@media only screen and (max-device-width: 480px) {
 				a[href^="tel"], a[href^="sms"] {
@@ -42,6 +42,14 @@
 					color: orange !important; /* or whatever your want */
 					pointer-events: auto;
 					cursor: default;
+				}
+				.sidebar {
+					display: none;
+				}
+
+				.wrapper-table {
+					max-width: 480px;
+					background-color: red;
 				}
 			}
 
@@ -80,57 +88,101 @@
 	<body style="background-color: #f4f4f4;">
 	<center>
 		<!--Wrapper Table Begin-->
-		<table cellpadding="0" cellspacing="0" border="0" id="backgroundTable" style="max-width: 700px; background-color: #fff; margin: 20px;">
+		<table class="wrapper-table" cellpadding="0" cellspacing="0" border="0" id="backgroundTable" style="max-width: 700px; background-color: #fff; margin: 20px;">
+		<!--Header Begin-->
 		<tr>
-		<td valign="top" style="padding: 20px 30px;">
+			<td colspan="3" style="background-color: #71B5E6;" height="80px">
+				<span></span>
+			</td>
+		</tr>
+		<!--Header End-->
+		<tr>
+		<!--Sidebar Begin-->
+			<td class="sidebar" style="background-color: #71B5E6;" width="20px">
+				<span></span>
+			</td>
+		<!--Sidebar End-->
+		<td valign="top" style="padding: 30px 40px;">
 			<table>
 			<tr>
 			<td valign="top">
 		<!--Content Begin-->
-			<table cellpadding="0" cellspacing="0" border="0" align="">
+			<table cellpadding="0" cellspacing="0" border="0" width="100%">
 				<tr>
-					<td valign="top" style="padding-top: 10px; padding-bottom: 10px;">
-					<a href="http://hotpads.com"><img src="http://filenet.hotpads.com/images/blu/blu-logo-high-saturation.png" style="border:none"/></a>
+					<td valign="middle" align="left" style="padding: 10px 15px;">
+						<h3>Welcome to HotPads!</h3>
+					</td>
+					<td valign="middle" align="right" style="padding: 10px 20px;">
+						<a href="http://hotpads.com"><img src="http://filenet.hotpads.com/images/blu/blu-logo-high-saturation.png" alt="HotPads Logo" style="border: none;"/></a>
 					</td>
 				</tr>
-				<tr>
-					<td><h3>Welcome to HotPads!</h3></td>
-				</tr>
 			</table>
-			<table cellpadding="0" cellspacing="0" border="0" align="">
-				<tr>
-					<td valign="top">
-						<p>Your new <a href="http://hotpads.com">HotPads</a> account is now activated. If you ever need to change or update your information, you can do so <a href="http://hotpads.com/users/editUser.htm">here</a>.
 
-						At HotPads we're on a mission to make the internet a better place to find a place. We're thrilled that you're now part of the story! Ready to jump right into the <a href="http://hotpads.com/search">map search</a>?		
-						Welcome on board, 
+			<table cellpadding="0" cellspacing="0" border="0" align="center" width="95%">
+				<tr>
+					<td valign="top" style="line-height: 1.4em; padding: 5px 0;">
+						<p>Your new <a href="http://hotpads.com">HotPads</a> account is now activated.
+						</br>
+						You can <a href="http://hotpads.com/users/editUser.htm">access your account information</a> and change or update any details.
+						</br>
+						</br>
+						At HotPads we're on a mission to make the internet a better place to find a place. We're thrilled that you're now part of the story!
+						</br>
+						</br>
+						Ready to jump right into the <a href="http://hotpads.com/search">map search</a>?
+						</br>
+						</br>
+						Welcome on board,
+						</br>
 						The HotPads Team</p>
 					</td>
 				</tr>
 			</table>
 
-			<table cellpadding="0" cellspacing="0" border="0" align="">
+			<table cellpadding="0" cellspacing="0" border="0" align="center" width="100%">
+			<tr>
+			<td style="border-top: 1px solid #ccc; line-height: 1.4em;">
+				<table align="center" width="95%">
 				<tr>
-					<td valign="top">
-					<p>Questions or suggestions? Reach us at <a href="mailto:info@hotpads.com">info@hotpads.com</a>.</p>
-					<p>Have a home for rent or sale?  <a href="http://hotpads.com/list.htm">Create a free listing!</a></p>
+					<td colspan="3">
+						<p>Questions or suggestions? Reach us at <a href="mailto:info@hotpads.com">info@hotpads.com</a>.
+						</br>
+						Have a home for rent or sale?  <a href="http://hotpads.com/list.htm">Create a free listing</a>!</p>
+					</td>
+				<tr>
+				<tr>
+					<td valign="middle">
+						The power of HotPads, now on mobile.
+					</td>
+					<td align="center">
+						<a href="http://hotpads.com/referral.htm?ref=userWelcomeMessage&type=mobileApp&key=android"><img src="http://filenet.hotpads.com/images/email/android_badge.png" alt="HotPads Android App" style="width: 100px; vertical-align: middle;"></a>
+					</td>
+					<td align="center">
+						<a href="http://hotpads.com/referral.htm?ref=userWelcomeMessage&type=mobileApp&key=iphone"><img src="http://filenet.hotpads.com/images/email/apple_badge.png" alt="HotPads Apple App" style="width: 100px; vertical-align: middle;"></a>
 					</td>
 				</tr>
+				<tr>
+					<td></td>
+					<td colspan="2" valign="top" align="center" style="padding-bottom: 10px; font-size: 11px;">
+						<span>Download on <a href="http://hotpads.com/referral.htm?ref=userWelcomeMessage&type=mobileApp&key=android">Android</a> or
+						<a href="http://hotpads.com/referral.htm?ref=userWelcomeMessage&type=mobileApp&key=iphone">Apple</a>.</span>
+					</td>
+				</tr>
+				</table>
+			</td>
+			</tr>
 			</table>
 
 			<table cellpadding="0" cellspacing="0" border="0" align="" width="100%">
 				<tr>
-					<td valign="top">
-						The power of HotPads, now on your mobile: Download for <a href="http://hotpads.com/referral.htm?ref=userWelcomeMessage&type=mobileApp&key=android">Android</a> | <a href="http://hotpads.com/referral.htm?ref=userWelcomeMessage&type=mobileApp&key=iphone">iPhone</a>
+					<td valign="middle" align="center" style="border-top: 1px solid #ccc; padding-top: 15px;">
+						<a href="https://www.facebook.com/hotpads"><img src="http://filenet.hotpads.com/images/email/facebook-round.png" alt="HotPads Facebook" style="width: 25px;"></a>
+						<a href="https://twitter.com/HotPads"><img src="http://filenet.hotpads.com/images/email/twitter-round.png" alt="HotPads Twitter" style="width: 25px;"></a>
 					</td>
-				<!--	<td style="padding-bottom: 5px;">
-						<img src="http://a3.mzstatic.com/us/r1000/098/Purple/v4/b1/09/02/b109028e-52d9-576d-c77e-61bdc6e5e6f5/mzl.ezpxvciv.175x175-75.jpg" style="width: 35px; border-radius: 5px;">
-					</td> -->
 				</tr>
 				<tr>
-					<td valign="center" align="center" style="border-top: 1px solid #ccc; padding-top: 10px;">
-						<a href="https://www.facebook.com/hotpads"><img src="assets/facebook-round.png" style="width: 25px;"></a>
-						<a href="https://twitter.com/HotPads"><img src="assets/twitter-round.png" style="width: 25px;"></a>
+					<td valign="bottom" align="center">
+						<span style="font-size: 11px;">Follow us on <a href="https://www.facebook.com/hotpads">Facebook</a> or <a href="https://twitter.com/HotPads">Twitter</a>!
 					</td>
 				</tr>
 			</table>
@@ -138,8 +190,20 @@
 			</td>
 			</tr>
 			</table>
+		<!--Sidebar Begin-->
+		<td class="sidebar" style="background-color: #71B5E6;" width="20px">
+			<span></span>
+		</td>
+		<!--Sidebar End-->
 		</td>
 		</tr>
+		<!--Footer Begin-->
+		<tr>
+			<td colspan="3">
+				<img src="http://filenet.hotpads.com/images/email/footer.jpg" width="100%" height="100%" style="background-color: #71B5E6;">
+			</td>
+		</tr>
+		<!--Footer End-->
 		</table>
 	</center>
 	</body>
