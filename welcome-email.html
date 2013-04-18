@@ -36,18 +36,18 @@
 			#backgroundTable {
 				max-width: 700px; 
 				background-color: #fff;
-				margin: 20px;
 				font-size: 16px;
+				margin-top: 20px;
 			}
 
 			.headerBar {
-				height: 80px;
-				line-height: 80px; 
+				height: 40px;
+				line-height: 40px; 
 				background-color: #71B5E6;
 			}
 
 			.contentBegin {
-				padding: 30px 40px;
+				padding: 20px;
 			}
 
 			.sidebar {
@@ -59,6 +59,7 @@
 				float: left;
 				vertical-align: middle;
 				padding: 10px 15px;
+				font-size: 18px;
 			}
 
 			.logo {
@@ -100,8 +101,14 @@
 				font-size: 11px;
 			}
 
+			.footer {
+				background-color: #71B5E6;
+				line-height: 10px;
+			}
+
 			.footerImage {
-				width: 100%; 
+				width: 100%;
+				display: block;
 				background-color: #71B5E6;
 			}
 
@@ -198,10 +205,10 @@
 	<body>
 	<center>
 		<!--Wrapper Table Begin-->
-		<table cellpadding="0" cellspacing="0" border="0" id="backgroundTable" style="max-width: 700px; background-color: #fff; margin: 20px; font-size: 16px;">
+		<table cellpadding="0" cellspacing="0" border="0" id="backgroundTable" style="max-width: 700px; background-color: #fff; font-size: 16px;">
 		<!--Header Begin-->
 		<tr>
-			<td colspan="3" class="headerBar" style="line-height: 80px; height: 80px; background-color: #71B5E6;">
+			<td colspan="3" class="headerBar" style="line-height: 40px; height: 40px; background-color: #71B5E6;">
 				<span>&nbsp;</span>
 			</td>
 		</tr>
@@ -212,14 +219,14 @@
 				<span>&nbsp;</span>
 			</td>
 		<!--Sidebar End-->
-		<td valign="top" class="contentBegin">
+		<td valign="top" class="contentBegin" style="padding: 20px;">
 			<table>
 			<tr>
 			<td>
 		<!--Content Begin-->
 			<table cellpadding="0" cellspacing="0" border="0">
 				<tr>
-					<td class="welcomeMessage" style="float: left; vertical-align: middle; padding: 10px 15px;">
+					<td class="welcomeMessage" style="float: left; vertical-align: middle; padding: 10px 15px; font-size: 18px;">
 						<h3>Welcome to HotPads!</h3>
 					</td>
 					<td valign="middle" align="right" class="logo" style="float: right; padding: 10px 20px;">
@@ -293,6 +300,11 @@
 						<span class="followUs" style="font-size: 11px;">Follow us on <a href="https://www.facebook.com/hotpads" target="_blank">Facebook</a> or <a href="https://twitter.com/HotPads" target="_blank">Twitter</a>!
 					</td>
 				</tr>
+				<tr>
+					<td valign="bottom" align="right">
+						<span class="unsubscribe" style="font-size: 11px;">Unsubscribe</span>
+					</td>
+				</tr>
 			</table>
 			<!--Content End-->
 			</td>
@@ -307,8 +319,8 @@
 		</tr>
 		<!--Footer Begin-->
 		<tr>
-			<td colspan="3">
-				<img src="http://filenet.hotpads.com/images/email/footer.jpg" class="footerImage" style="width: 100%; background-color: #71B5E6;">
+			<td colspan="3" class="footer" style="background-color: #71B5E6; line-height: 10px;">
+				<img src="http://filenet.hotpads.com/images/email/footer.jpg" class="footerImage" style="width: 100%; background-color: #71B5E6;"><span class="unsubscribe" style="font-size: 11px;">Unsubscribe</span>
 			</td>
 		</tr>
 		<!--Footer End-->
