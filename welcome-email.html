@@ -30,15 +30,16 @@
 			a {color: blue;}
 
 			#backgroundTable {
+				display: block;
 				max-width: 700px; 
 				background-color: #fff;
 				font-size: 16px;
-				margin-top: 20px;
+				margin-top: 20px auto;
 			}
 
 			.headerBar {
-				height: 40px;
-				line-height: 40px; 
+				height: 20px;
+				line-height: 30px; 
 				background-color: #71B5E6;
 			}
 
@@ -204,12 +205,11 @@
 	</head>
 	
 	<body>
-	<center>
 		<!--Wrapper Table Begin-->
-		<table cellpadding="0" cellspacing="0" border="0" width="100%" id="backgroundTable" style="max-width: 700px; background-color: #fff; font-size: 16px;">
+		<table cellpadding="0" cellspacing="0" border="0" width="100%" id="backgroundTable" style="display: block; max-width: 700px; background-color: #fff; font-size: 16px; margin: 20px auto;">
 		<!--Header Begin-->
 		<tr>
-			<td colspan="3" class="headerBar" style="line-height: 40px; height: 40px; background-color: #71B5E6;">
+			<td colspan="3" class="headerBar" style="line-height: 30px; height: 30px; background-color: #71B5E6;">
 				<span>&nbsp;</span>
 			</td>
 		</tr>
@@ -326,7 +326,6 @@
 		</tr>
 		<!--Footer End-->
 		</table>
-	</center>
 	</body>
 
 </html>
