@@ -1,0 +1,337 @@
+From: me@localhost
+To: gregg@rentjuice.com
+Subject: Welcome to HotPads!
+Mime-Version: 1.0
+Content-Type: text/html
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+		<title>Welcome to HotPads!</title>
+		<style type="text/css">
+
+			#outlook a {padding:0;}
+			body{width:100% !important; -webkit-text-size-adjust:100%; -ms-text-size-adjust:100%; margin:0; padding:0; font-family: "helvetica", sans-serif;}
+			.ExternalClass {width:100%;}
+			.ExternalClass, .ExternalClass p, .ExternalClass span, .ExternalClass font, .ExternalClass td, .ExternalClass div {line-height: 100%;} 
+			#backgroundTable {margin:0; padding:0; width:100% !important; line-height: 100% !important;}
+
+			img {outline:none; text-decoration:none; -ms-interpolation-mode: bicubic;}
+			a img {border:none;}
+			.image_fix {display:block;}
+
+			p {margin: 1em 0;}
+
+			h1, h2, h3, h4, h5, h6 {color: black !important;}
+			h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {color: blue !important;}
+			h1 a:active, h2 a:active,  h3 a:active, h4 a:active, h5 a:active, h6 a:active {color: red !important;}
+			h1 a:visited, h2 a:visited,  h3 a:visited, h4 a:visited, h5 a:visited, h6 a:visited {color: purple !important;}
+
+			table td {border-collapse: collapse;}
+			table { border-collapse:collapse; mso-table-lspace:0pt; mso-table-rspace:0pt; }
+
+			a {color: blue;}
+
+			#backgroundTable {
+				display: block;
+				max-width: 700px; 
+				background-color: #fff;
+				font-size: 16px;
+				margin-top: 20px auto;
+			}
+
+			.headerBar {
+				height: 20px;
+				line-height: 30px; 
+				background-color: #71B5E6;
+			}
+
+			.contentBegin {
+				padding: 20px;
+			}
+
+			.sidebar {
+				background-color: #71B5E6;
+				width: 20px;
+			}
+
+			.welcomeMessage {
+				float: left;
+				vertical-align: middle;
+				padding: 20px 15px 10px 15px;
+				font-size: 18px;
+			}
+
+			.logo {
+				float: left;
+				padding: 10px 20px;
+			}
+
+			.mainBodyText {
+				width: 95%;
+				line-height: 1.4em;
+			}
+
+			.questionsText {
+				border-top: 1px solid #ccc; 
+				line-height: 1.4em;
+			}
+
+			.mobileBadge {
+				width: 100px;
+				vertical-align: middle;
+				padding: 2px;
+			}
+
+			.downloadMobileText {
+				padding-bottom: 10px;
+				font-size: 11px;
+			}
+
+			.socialMediaBadge {
+				width: 25px;
+			}
+
+			.socialMedia {
+				border-top: 1px solid #ccc;
+				padding-top: 15px;
+			}
+
+			.followUs {
+				font-size: 11px;
+			}
+
+			.footer {
+				background-color: #71B5E6;
+				line-height: 10px;
+			}
+
+			.footerImage {
+				width: 100%;
+				display: block;
+				background-color: #71B5E6;
+			}
+
+			.unsubscribe {
+				padding: 5px;
+				font-size: 11px;
+			}
+
+
+			@media only screen and (max-width: 480px), (max-device-width: 480px) {
+
+				a[href^="tel"], a[href^="sms"] {
+					text-decoration: none;
+					color: blue; /* or whatever your want */
+					pointer-events: none;
+					cursor: default;
+				}
+
+				.mobile_link a[href^="tel"], .mobile_link a[href^="sms"] {
+					text-decoration: default;
+					color: blue !important; /* or whatever your want */
+					pointer-events: auto;
+					cursor: default;
+				}
+
+				#backgroundTable {
+					max-width: 480px;
+					font-size: 18px;
+					margin: 0px;
+				}
+
+				.headerBar {
+					height: 5px !important;
+					line-height: 5px !important;
+				}
+
+				.contentBegin {
+					padding: 10px !important;
+				}
+
+				.sidebar {
+					width: 5px !important;
+				}
+
+				.welcomeMessage {
+					font-size: 22px;
+				}
+
+				.mainBodyText {
+					line-height: 1.3em;
+				}
+
+				.questionsText {
+					line-height: 1.3em;
+				}
+
+				.mobileText {
+					padding-right: 5px;
+					float: left;
+				}
+
+				.downloadMobileText {
+					width: 150px;
+				}
+			}
+
+			@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+				a[href^="tel"], a[href^="sms"] {
+					text-decoration: none;
+					color: blue; /* or whatever your want */
+					pointer-events: none;
+					cursor: default;
+				}
+
+				.mobile_link a[href^="tel"], .mobile_link a[href^="sms"] {
+					text-decoration: default;
+					color: blue !important;
+					pointer-events: auto;
+					cursor: default;
+				}
+			}
+
+			@media only screen and (-webkit-min-device-pixel-ratio: 2) {
+				/* Put your iPhone 4g styles in here */
+			}
+			@media only screen and (-webkit-device-pixel-ratio:.75){
+				/* Put CSS for low density (ldpi) Android layouts in here */
+			}
+			@media only screen and (-webkit-device-pixel-ratio:1){
+				/* Put CSS for medium density (mdpi) Android layouts in here */
+			}
+			@media only screen and (-webkit-device-pixel-ratio:1.5){
+				/* Put CSS for high density (hdpi) Android layouts in here */
+			}
+
+		</style>
+	</head>
+	
+	<body>
+		<!--Wrapper Table Begin-->
+		<table cellpadding="0" cellspacing="0" border="0" width="100%" id="backgroundTable" style="display: block; max-width: 700px; background-color: #fff; font-size: 16px; margin: 20px auto;">
+		<!--Header Begin-->
+		<tr>
+			<td colspan="3" class="headerBar" style="line-height: 30px; height: 30px; background-color: #71B5E6;">
+				<span>&nbsp;</span>
+			</td>
+		</tr>
+		<!--Header End-->
+		<tr>
+		<!--Sidebar Begin-->
+			<td class="sidebar" style="background-color: #71B5E6; width: 20px;">
+				<span>&nbsp;</span>
+			</td>
+		<!--Sidebar End-->
+		<td class="contentBegin" style="padding: 20px;">
+			<table width="100%">
+			<tr>
+			<td>
+		<!--Content Begin-->
+			<table cellpadding="0" cellspacing="0" border="0" width="100%">
+				<tr>
+					<td valign="middle" class="welcomeMessage" style="float: left; vertical-align: middle; padding: 20px 15px 10px 15px; font-size: 18px;">
+						<h3>Welcome to HotPads!</h3>
+					</td>
+					<td valign="top" align="right" class="logo" style="float: left; padding: 10px 20px;">
+						<a href="http://hotpads.com"><img src="http://filenet.hotpads.com/images/blu/blu-logo-high-saturation.png" alt="HotPads Logo" style="border: none;"/></a>
+					</td>
+				</tr>
+			</table>
+
+			<table cellpadding="0" cellspacing="0" border="0" align="center" class="mainBodyText" style="width: 95%; line-height: 1.4em;">
+				<tr>
+					<td valign="top" style="padding: 5px 0;">
+						<p>Your new <a href="http://hotpads.com" target="_blank">HotPads</a> account is now activated.
+						<br />
+						<br />
+						At HotPads we're on a mission to make the internet a better place to find a place. We're thrilled that you're now part of the story!
+						<br />
+						<br />
+						Ready to jump right into the <a href="http://hotpads.com/search" target="_blank">map search</a>?
+						<br />
+						Or head back to your last <a href="" target="_blank">viewed map search</a>!
+						<br />
+						<br />
+						Welcome on board,
+						<br />
+						The HotPads Team</p>
+					</td>
+				</tr>
+			</table>
+
+			<table cellpadding="0" cellspacing="0" border="0" align="center" width="100%">
+			<tr>
+			<td class="questionsText" style="border-top: 1px solid #ccc; line-height: 1.4em;">
+				<table valign="middle" align="center" width="95%">
+				<tr>
+					<td colspan="3">
+						<p>Questions or suggestions? Reach us at <a href="mailto:info@hotpads.com">info@hotpads.com</a>.
+						<br />
+						Have a home for rent or sale?  <a href="http://hotpads.com/list.htm" target="_blank">Create a free listing</a>!</p>
+					</td>
+				<tr>
+				<tr>
+					<td class="mobileText" valign="middle">
+						The power of HotPads, now on mobile.
+					</td>
+					<td align="center">
+						<a href="http://hotpads.com/referral.htm?ref=userWelcomeMessage&type=mobileApp&key=android" target="_blank"><img src="http://filenet.hotpads.com/images/email/android_badge.png" alt="HotPads Android App" class="mobileBadge" style="width: 100px; vertical-align: middle; padding: 2px;"></a>
+						<a href="http://hotpads.com/referral.htm?ref=userWelcomeMessage&type=mobileApp&key=iphone" target="_blank"><img src="http://filenet.hotpads.com/images/email/apple_badge.png" alt="HotPads Apple App" class="mobileBadge" style="width: 100px; vertical-align: middle; padding: 2px;"></a>
+					</td>
+				</tr>
+				<tr>
+					<td></td>
+					<td valign="top" align="center" class="downloadMobileText" style="padding-bottom: 10px; font-size: 11px;">
+						<span class="followUs">Download on <a href="http://hotpads.com/referral.htm?ref=userWelcomeMessage&type=mobileApp&key=android">Android</a> or
+						<a href="http://hotpads.com/referral.htm?ref=userWelcomeMessage&type=mobileApp&key=iphone">Apple</a>.</span>
+					</td>
+				</tr>
+				</table>
+			</td>
+			</tr>
+			</table>
+
+			<table cellpadding="0" cellspacing="0" border="0" align="center" width="100%">
+				<tr>
+					<td valign="middle" align="center" class="socialMedia" style="border-top: 1px solid #ccc; padding-top: 15px;">
+						<a href="https://www.facebook.com/hotpads" target="_blank"><img src="http://filenet.hotpads.com/images/email/facebook-round.png" alt="HotPads Facebook" class="socialMediaBadge" style="width: 25px;"></a>
+						<a href="https://twitter.com/HotPads" target="_blank"><img src="http://filenet.hotpads.com/images/email/twitter-round.png" alt="HotPads Twitter" class="socialMediaBadge" style="width: 25px;"></a>
+					</td>
+				</tr>
+				<tr>
+					<td valign="bottom" align="center">
+						<span class="followUs" style="font-size: 11px;">Follow us on <a href="https://www.facebook.com/hotpads" target="_blank">Facebook</a> or <a href="https://twitter.com/HotPads" target="_blank">Twitter</a>!
+					</td>
+				</tr>
+			</table>
+			<!--Content End-->
+			</td>
+			</tr>
+			</table>
+		<!--Sidebar Begin-->
+		<td class="sidebar" style="background-color: #71B5E6; width: 20px;">
+			<span>&nbsp;</span>
+		</td>
+		<!--Sidebar End-->
+		</td>
+		</tr>
+		<!--Footer Begin-->
+		<tr>
+			<td colspan="3" class="footer" style="background-color: #71B5E6; line-height: 10px;">
+				<img src="http://filenet.hotpads.com/images/email/footer.jpg" class="footerImage" style="width: 100%; background-color: #71B5E6;">
+			</td>
+		</tr>
+		<tr>
+			<td colspan="3" valign="bottom" align="center" class="unsubscribe" style="padding: 10px; font-size: 11px;">
+				<span><a href="" target="_blank">Unsubscribe</a> | <a href="" target="_blank">Update your preferences</a></span>
+			</td>
+		</tr>
+		<!--Footer End-->
+		</table>
+	</body>
+
+</html>
